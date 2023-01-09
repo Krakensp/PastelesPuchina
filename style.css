@@ -1,0 +1,94 @@
+*{
+    transition: .2s;
+}
+
+body{
+    background-color: #ADA2FF;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Montserrat-Bold', sans-serif;
+
+}
+
+h1{
+    display: inline-block;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.login{
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    border: solid 1rem;
+    background-color: #C0DEFF;
+    color: rgb(138, 138, 138);
+    
+}
+
+/*  Login Header */
+.login-header{
+    height: 130px;
+    background-color: #FFE5F1;
+}
+
+.brand-image{
+    top: 15px;
+    right:15px;
+    position: relative;
+    height: 100px;
+}
+
+/* Login Body   */
+
+.login-body{
+    padding-top: 50px;
+    height: 350px;
+    
+}
+
+
+.form-label{
+    margin: 30px 10px;
+    width: 150px;
+    font-size: 2rem;
+    display: inline-block;
+    font-weight: 700;
+    
+}
+
+.form-input{
+    margin: 30px 10px;
+    width: 48%;
+    font-size: 1.5rem;
+    display: inline-block;
+
+    border-style: none;
+}
+
+.form-button{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    margin-top: 50px;
+    width: 130px;
+    height: 60px;
+    background-color:#FFE5F1 ;
+    font-size: 2rem;
+    color:#ADA2FF ;
+    border-color: #ADA2FF;
+}
+
+.form-button:hover{
+    background-color: #ADA2FF;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/*  Login Footer */
+
+.login-footer{
+    height: 170px;
+    background-color:#FFFBAC;
+}
